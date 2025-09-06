@@ -21,12 +21,14 @@ section {
 }
 .sviter { 
     width: 350px;
-    background-color:rgba(0, 9, 61, 0.705) ;
+    background-color:rgba(0, 0, 0, 0.705) ;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    align-items: center;
+    color: white;
 }
 .sviter img {
     width: 300px;
@@ -36,4 +38,6 @@ section {
 footer {
     color:black;
 }
+
+
 
