@@ -7,8 +7,19 @@ body{
 }
 
 header {
-    color: black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; /*МОжна лишити чи видалити   */
 }
+header a {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600; /*МОжна лишити чи видалити   */
+}
+
 header p {
     font-size: 40px;
 }
@@ -34,11 +45,31 @@ section {
 .sviter img {
     width: 300px;
     height: 200px;
-}
 
+}
 footer {
-    color:black;
+  color: rgb(255, 255, 255);
+    background-color: black;
 }
 
+nav {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+  transform: scale(1.1) translateY(-3px);
+  text-shadow: 0px 0px 5px black;
+}
 
 

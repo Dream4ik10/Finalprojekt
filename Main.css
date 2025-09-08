@@ -242,3 +242,10 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+.trends {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+  text-align: center;
+}
